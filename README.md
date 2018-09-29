@@ -22,11 +22,11 @@ nodemon
 
 3) This will launch the server at localhost:3000. Open it on your browser.
 
-<img src = "https://user-images.githubusercontent.com/38986305/46242201-5ec8a380-c3e3-11e8-893c-0eb589943f19.JPG" width = 700" />
+<img src = "https://user-images.githubusercontent.com/38986305/46242201-5ec8a380-c3e3-11e8-893c-0eb589943f19.JPG" width = "700">
 
 4) Done !!!!
 
-<img src = "https://user-images.githubusercontent.com/38986305/46242202-5ec8a380-c3e3-11e8-9efe-2e7cf50409d9.JPG" width = 700" />
+<img src = "https://user-images.githubusercontent.com/38986305/46242202-5ec8a380-c3e3-11e8-9efe-2e7cf50409d9.JPG" width = "700">
 
 ## Further improvements
 
