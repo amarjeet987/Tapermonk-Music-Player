@@ -1,0 +1,106 @@
+<html>
+<head>
+    <title>HTML5 Audio Player</title>
+    <link rel="stylesheet" href="css/style.css" media="screen">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+<body>
+
+  <div class="player">
+    <div class="top-box">
+        <img src="images/Group 284@2x.png" />
+        <div class="head">
+            <p>TaperMonk Media Player</p>
+        </div>
+        <div class="top-space"></div>
+    </div>
+    <div class="mid-box">
+        <div class="playlist-holder">
+          <div class="playlist">
+              <ul id="playlist_ul">
+                  <li>
+                    <div>
+                        <p class="song" cover="media/covers/rgg.jpg" song="rgg.mp3" songname="Radio GaGa">Radio GaGa</p>
+                        <p class="artist" artist="Queen">Queen</p>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div>
+                        <p class="song" cover="media/covers/bits.jpg" song="bits.mp3" songname="Burning In The Skies">Burning In The Skies</p>
+                        <p class="artist" artist="Linkin Park">Linkin Park</p>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div>
+                        <p class="song" cover="media/covers/hurt.jpg" song="hurt.mp3" songname="Hurt">Hurt</p>
+                        <p class="artist" artist="Johnny Cash">Johnny Cash</p>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div>
+                        <p class="song" cover="media/covers/sth.jpg" song="sth.mp3" songname="Stairway To Heaven">Stairway To Heaven</p>
+                        <p class="artist" artist="Led Zeppelin">Led Zeppelin</p>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div>
+                        <p class="song" cover="media/covers/oml.jpg" song="oml.mp3" songname="One More Light">One More Light</p>
+                        <p class="artist" artist="Linkin Park">Linkin Park</p>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div>
+                        <p class="song" cover="media/covers/sue.jpg" song="sue.mp3" songname="A Boy Named Sue">A Boy Named Sue</p>
+                        <p class="artist" artist="Johnny Cash">Johnny Cash</p>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div>
+                        <p class="song" cover="media/covers/cover1.jpg" song="ppc.mp3" songname="Papercut">Papercut</p>
+                        <p class="artist" artist="Linkin Park">Linkin Park</p>
+                    </div>
+                  </li>
+              </ul>
+          </div>
+        </div>
+        <div class="visualizations-holder">
+              <div id="vis-abs">
+                  <canvas id="visualizations"></canvas>
+              </div>
+              <div class="bottom-part">
+                  <div class="details">
+                    <p class="curr_song"></p>
+                    <p class="curr_artist"></p>
+                  </div>
+              </div>
+              <img id="cover-img"/>
+        </div>
+    </div>
+    <div class="bottom-box">
+        <div class="progress">
+            <span class="bufferbar"></span>
+            <span class="progressbar"></span>
+            <img id="prog_knob" />
+        </div>
+        <div class="controls">
+          <img src="images/prev.png" id="prev" />
+          <img src="images/play.png" id="play" />
+          <img src="images/paus.png" id="pause"/>
+          <img src="images/stop.png" id="stop" />
+          <img src="images/next.png" id="next" />
+        </div>
+        <div class="volume">
+            <input id="volume" type="range" value="5" min="0" max="10" />
+        </div>
+    </div>
+  </div>
+  <script src="js/jquery.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
