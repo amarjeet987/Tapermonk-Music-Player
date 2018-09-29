@@ -22,4 +22,4 @@ nodemon
 
 3) This will launch the server at localhost:3000. Open it on your browser. That's it!!!
 
-Also, if anyone have any further improvements in mind, feel free to make a pull request.
+   Also, if anyone have any further improvements in mind, feel free to make a pull request.
